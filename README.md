@@ -4,6 +4,8 @@ seo-slug is a utility package to generate human readable and SEO friendly slug f
 
 `This is a blog title -> this-is-a-blog-title12345`
 
+[Try this online](https://npm.runkit.com/%40smflow%2Fseo-slug)
+
 ## Installation
 To use is you need to install it, run this command in your terminal to install it:
 
