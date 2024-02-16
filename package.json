@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "description": "A utility package that generate SEO friendly and human readable slug.",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsup"
+    "build": "tsup",
+    "deploy": "git push && npm publish"
   },
   "repository": {
     "type": "git",

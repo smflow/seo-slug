@@ -38,4 +38,6 @@ export const genSlug: GenSlug = (str, len = -0) => {
   return "";
 };
 
-export default genSlug;
+export {
+  genSlug as default
+};

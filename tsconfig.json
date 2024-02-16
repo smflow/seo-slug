@@ -8,6 +8,7 @@
     "moduleResolution": "Node",
     "module": "CommonJS",
     "declaration": true,
+    "declarationMap": true,
     "isolatedModules": true,
     "noEmit": true,
     "outDir": "./dist"
