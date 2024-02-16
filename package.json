@@ -1,6 +1,6 @@
 {
   "name": "@smflow/seo-slug",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A utility package that generate SEO friendly and human readable slug.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsup",
-    "deploy": "git push && npm publish"
+    "deploy": "git push && npm login &&npm publish"
   },
   "repository": {
     "type": "git",
