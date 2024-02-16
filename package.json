@@ -1,6 +1,6 @@
 {
   "name": "@smflow/seo-slug",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A utility package that generate SEO friendly and human readable slug.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -34,7 +34,9 @@
     },
     "https://www.buymeacoffee.com/smflow"
   ],
-  "engines": {"node": ">=16.x"},
+  "engines": {
+    "node": ">=16.x"
+  },
   "bugs": {
     "url": "https://github.com/smflow/seo-slug/issues",
     "email": "smflow1400@gmail.com"
