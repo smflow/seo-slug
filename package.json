@@ -1,0 +1,38 @@
+{
+  "name": "@smflow/seo-slug",
+  "version": "0.0.1",
+  "description": "A utility package that generate SEO friendly and human readable slug.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smflow/seo-slug.git"
+  },
+  "keywords": [
+    "Blog slug",
+    "article slug",
+    "slug generator",
+    "SEO Slug",
+    "SEO slug generator"
+  ],
+  "author": {
+    "email": "smflow1400@gmail.com",
+    "name": "SM Flow",
+    "url": "https://github.com/smflow"
+  },
+  "license": "MIT",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/SMFlow"
+    },
+    "https://www.buymeacoffee.com/smflow"
+  ],
+  "bugs": {
+    "url": "https://github.com/smflow/seo-slug/issues",
+    "email": "smflow1400@gmail.com"
+  },
+  "homepage": "https://github.com/smflow/seo-slug#readme"
+}
