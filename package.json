@@ -4,7 +4,8 @@
   "description": "A utility package that generate SEO friendly and human readable slug.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,15 @@
     "url": "https://github.com/smflow/seo-slug/issues",
     "email": "smflow1400@gmail.com"
   },
-  "homepage": "https://github.com/smflow/seo-slug#readme"
+  "homepage": "https://github.com/smflow/seo-slug#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
 }
