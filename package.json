@@ -7,8 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsup",
-    "deploy": "git push && npm login && npm publish"
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
