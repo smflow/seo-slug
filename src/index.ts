@@ -1,6 +1,6 @@
-export type GenSlug = (text: string, len?: number) => string;
+export type GenSlug = (text: string, len?: number, rand?: boolean) => string;
 
-export const genSlug: GenSlug = (str, len = -0) => {
+export const genSlug: GenSlug = (str, len = -0, rand: boolean = true) => {
   if (typeof str === "string") {
     let strr = str
       /** Trim the whitespace */
@@ -26,9 +26,11 @@ export const genSlug: GenSlug = (str, len = -0) => {
       strr = strr.replace("--", "-");
     }
 
-    strr = `${strr}${`${Math.floor(
-      Math.random() * Date.now() * Math.random()
-    )}`.slice(0, 5)}`;
+    if (rand) {
+      strr = `${strr}${`${Math.floor(
+        Math.random() * Date.now() * Math.random()
+      )}`.slice(0, 5)}`;
+    }
 
     if (len > 0) {
       strr = strr.slice(0, len);

@@ -11,3 +11,7 @@ test("Should generate a slug", () => {
 test("Should generate a slug with limit", () => {
   expect(genSlug("Generate slug", 8).includes("generate")).toBe(true);
 })
+
+test("Should not include random works at the end", () => {
+  expect(genSlug("Generate slug", undefined, false) === "generate-slug").toBe(true);
+})
